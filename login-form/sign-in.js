@@ -151,6 +151,7 @@ export default function Signup({ navigation }) {
       barangay: inputValue,
     }));
   }
+
   const objectSuffix = [
     { label: "None", value: "" },
     { label: "Jr", value: "Jr" },
@@ -167,6 +168,7 @@ export default function Signup({ navigation }) {
     { label: "Widowed", value: "Widowed" },
     { label: "Annuled", value: "Annuled" },
   ];
+
   const onChange = (event, selectedDate) => {
     if (event.type === "set") {
       const currentdate = selectedDate || date;

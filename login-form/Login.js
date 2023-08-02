@@ -130,9 +130,13 @@ export default function Login({ navigation, route }) {
             {/* end sign in */}
           </View>
         </View>
+
+
         <Text style={styles.footerText}>
           © 2022 PISOPAY.COM ONLINE SERVICES. ALL RIGHTS RESERVED
         </Text>
+
+        
       </ScrollView>
       
     </>
@@ -166,7 +170,7 @@ const styles = StyleSheet.create({
     fontSize: 10,
     fontWeight: 500,
     position: "absolute",
-    bottom: -4,
+    bottom: -2,
     left: 0,
     right: 0,
   },
@@ -210,6 +214,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     height: "100%",
+    paddingTop: 30
   },
   overlay: {
     ...StyleSheet.absoluteFillObject,
@@ -219,6 +224,7 @@ const styles = StyleSheet.create({
     display: "flex",
     flexDirection: "column",
     height: "100%",
+    backgroundColor: "red"
   },
   textLarge_color: {
     fontSize: 22,
